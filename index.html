@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="theme-color"
+      content="#f5f4e9"
+    />
+    <meta
+      name="description"
+      content="Một món quà nhỏ dành tặng em nhân ngày Phụ nữ Việt Nam 20/10."
+    />
+    <title>Một món quà nhỏ dành cho em</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <div class="ambient ambient--one" aria-hidden="true"></div>
+      <div class="ambient ambient--two" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <a class="wordmark" href="#" aria-label="Món quà 20 tháng 10">
+          <span class="wordmark__flower" aria-hidden="true">✿</span>
+          <span>Một chút dịu dàng</span>
+        </a>
+        <span class="date-pill"><span aria-hidden="true">♡</span> 20 · 10</span>
+      </header>
+
+      <section class="celebration" aria-labelledby="page-title">
+        <div class="intro">
+          <p class="eyebrow"><span></span> GỬI ĐẾN CÔ GÁI ANH THƯỜNG NGHĨ ĐẾN</p>
+          <h1 id="page-title">Có một món quà<br />nhỏ dành cho <em>em.</em></h1>
+          <p class="intro__copy">Không cần vội đâu, món quà này chỉ mở ra khi em sẵn sàng.</p>
+        </div>
+
+        <div class="stage">
+          <div class="stage__halo" aria-hidden="true"></div>
+          <div class="stage__sparkle stage__sparkle--one" aria-hidden="true">✦</div>
+          <div class="stage__sparkle stage__sparkle--two" aria-hidden="true">✧</div>
+          <div class="stage__sparkle stage__sparkle--three" aria-hidden="true">✦</div>
+
+          <button
+            class="gift-button"
+            id="gift-button"
+            type="button"
+            aria-label="Mở hộp quà"
+            aria-expanded="false"
+            aria-controls="letter"
+          >
+            <span class="gift-box" id="gift-box" aria-hidden="true">
+              <span class="gift-box__shadow"></span>
+              <span class="gift-box__base">
+                <span class="gift-box__front-ribbon"></span>
+                <span class="gift-box__front-shine"></span>
+              </span>
+              <span class="gift-box__lid">
+                <span class="gift-box__lid-ribbon"></span>
+                <span class="gift-box__bow gift-box__bow--left"></span>
+                <span class="gift-box__bow gift-box__bow--right"></span>
+                <span class="gift-box__bow-knot"></span>
+              </span>
+              <span class="gift-box__glow"></span>
+            </span>
+          </button>
+
+          <p class="tap-hint" id="tap-hint">
+            <span class="tap-hint__dot"></span>
+            chạm nhẹ để mở quà
+            <span class="tap-hint__arrow" aria-hidden="true">↗</span>
+          </p>
+
+          <article class="letter" id="letter" aria-live="polite" aria-hidden="true">
+            <div class="letter__topline">
+              <span class="letter__icon" aria-hidden="true">✿</span>
+              <span>MỘT LÁ THƯ NHỎ</span>
+              <span class="letter__line"></span>
+            </div>
+            <h2>Gửi em, <em>người đáng yêu</em></h2>
+            <p class="letter__message">
+              Chúc em ngày 20/10 thật nhiều niềm vui, luôn được làm những điều mình thích và gặp những người khiến em cảm thấy thoải mái,
+              vui vẻ. Mong mọi chuyện em đang cố gắng đều có kết quả tốt đẹp, luôn có những điều nhỏ bé khiến mình hạnh phúc.
+            </p>
+            <p class="letter__wish">Chúc em luôn vui vẻ theo cách mà em muốn nhé.</p>
+            <div class="letter__footer">
+              <div class="sticker" id="sticker" aria-label="Một lời chúc đáng yêu">
+                <img class="sticker__image" id="sticker-image" src="/images/girlfriend.gif" alt="" />
+                <div class="sticker__fallback" id="sticker-fallback" aria-hidden="true">
+                  <span class="sticker__flower">✿</span>
+                  <span class="sticker__heart">♥</span>
+                  <span class="sticker__caption">Chúc em 20/10 vui vẻ nhé ♡</span>
+                </div>
+              </div>
+              <p class="signature">Ký tên<br /><span>Người đang cố ghi điểm.</span></p>
+            </div>
+            <span class="letter__seal" aria-hidden="true">♡</span>
+          </article>
+
+          <div class="confetti" id="confetti" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <span>Được gói bằng tất cả sự thương mến</span>
+        <span class="page-footer__leaf" aria-hidden="true">☘</span>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
